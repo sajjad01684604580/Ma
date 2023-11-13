@@ -1,0 +1,311 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.b-b{
+    border-bottom: 2px solid black;
+}
+.p-b{
+    padding-bottom: 106px;
+}
+/* all common css end */
+
+/* nav part css start */
+.nav{
+    padding-top: 112px;
+    padding-bottom: 225px;
+    background-color: #F3F3F3 !important;
+}
+nav img{
+    width: 67.458px;
+    height: 23px;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	color:  #181717;
+
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; 
+letter-spacing: -0.63px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: red;
+}
+/* nav part css end */
+
+/* about part start */
+#about{
+    background-color: #F3F3F3;
+    padding-bottom: 113px;
+}
+.about-head h1{
+    color:  #181717;
+    font-family: 'DM Sans', sans-serif;
+
+
+font-size: 60px;
+font-style: normal;
+font-weight: 500;
+line-height: 97.2%; 
+letter-spacing: -1.8px;
+}
+.about-head i{
+    font-size: 38px;
+    color: #181717;
+    padding-top: 139px;
+}
+.about-text p {
+	color: #606060;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 117%;
+	letter-spacing: -0.96px;
+	padding: 0 37px;
+	padding-top: 55px;
+}
+/* about part end */
+
+/* project part start */
+#project{
+    background-color: #F3F3F3;
+    padding-bottom: 113px;
+}
+.project-text h3{
+    color:  #181717;
+    font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+padding-bottom: 25px;
+
+}
+.project-text p{
+    color:  #181717;
+    font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 121.5%; 
+letter-spacing: -0.54px;
+padding-top: 25px;
+
+}
+.project-text .scnd-p{
+    color:#606060;
+    padding-bottom: 167px;
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 121.5%; 
+letter-spacing: -0.42px;
+}
+.project-text h4{
+    color: #181717;
+
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 121.5%;
+letter-spacing: -0.54px;
+text-decoration-line: underline;
+}
+.project-img img{
+    width: 100%;
+    height: 400px;
+}
+/* project part end */
+
+/* footer part start */
+footer{
+    background-color: #F3F3F3;
+    padding: 70px 0;
+}
+.footer-text h4{
+    color:  #2429AF;
+
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: -0.63px;
+}
+.footer-menu {
+    text-align: right;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu ul li a{
+    color:  #181717;
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 21px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: -0.63px;
+text-transform: capitalize;
+padding-left: 31px;
+}
+/* footer part end */
+
+/* about page start */
+
+/* about section css start */
+#about-s{
+    background-color: #F3F3F3;
+    padding-bottom: 71px;
+}
+.about-s-text h1 {
+	color: #181717;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 97.2%;
+	letter-spacing: -1.8px;
+	padding-right: 207px;
+	padding-bottom: 32px;
+}
+.about-s-p {
+	color: #606060;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 117%;
+	letter-spacing: -0.96px;
+	padding-right: 135px;
+	padding-bottom: 32px;
+}
+.about-s-two {
+	color: #606060;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 117%;
+	letter-spacing: -0.96px;
+	padding-right: 97px;
+    padding-bottom: 135px;
+}
+.about-s-img img{
+    width: 100%;
+}
+.soft-head h4{
+    color: #181717;
+    font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 121.5%; /* 21.87px */
+letter-spacing: -0.54px;
+text-decoration-line: underline;
+}
+.soft-text .soft-text-one{
+    color:  #181717;
+
+
+    font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 121.5%; 
+letter-spacing: -0.54px;
+padding-bottom: 31px;
+}
+.soft-text .soft-text-two{
+    color:  #181717;
+
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121.5%; 
+}
+.soft-bottom{
+    padding-bottom: 72px;
+}
+.about-b{
+    border-bottom: 2px solid black;
+}
+/* about section css end */
+
+/* i am css part start */
+#i-am{
+    background-color: #F3F3F3;
+}
+.i-am-text p {
+	color: #181717;
+	font-family: 'DM Sans', sans-serif;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 117%;
+	letter-spacing: -0.96px;
+	padding-right: 65px;
+}
+.i-am-text i{
+    font-size: 21px;
+    color: black;
+    padding-left: 15px;
+}
+.i-am-gmail p{
+    color: #181717;
+
+/* Heading-2 */
+font-family: 'DM Sans', sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 117%;
+letter-spacing: -0.96px;
+}
+.i-am-gmail span{
+    color:  #181717;
+
+
+font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 121.5%; 
+letter-spacing: -0.54px;
+padding-top: 25px;
+display: inline-block;
+}
+/* i am css part end */
+
+/* about page end*/
